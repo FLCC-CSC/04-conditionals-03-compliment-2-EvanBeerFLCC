@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Evan Beer
+# DATE: 3/3/26
+# BRIEF DESCRIPTION: Does the same thing as compliment_01 but with an extra message if you don't want a compliment.  
 
 
 
@@ -13,7 +13,21 @@
 
 
 
-########## ENTER YER CODE BELOW THIS LINE ##########
+########## ENTER YOUR CODE BELOW THIS LINE ##########
+
+def main():
+    compliment_giver()
+
+def compliment_giver():
+    Choice = input('Would you like a compliment? ')
+    
+    if Choice == 'yes':
+        print("You have wonderful eyes.")
+
+    else: print('No compliment for you!')
+    print('Thank you for playing.')
+
+main()
 
 
 
@@ -22,9 +36,7 @@
 
 
 
-
-
-########### END YER CODE ABOVE THIS LINE ###########
+########### END YOUR CODE ABOVE THIS LINE ###########
 
     
 
@@ -71,6 +83,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
+No it was easy because I just took the compliment_01 code and added the new message line of code to it and it worked.
 
 
 
